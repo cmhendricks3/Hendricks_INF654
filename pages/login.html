@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+</head>
+<body class="grey lighten-3">
+    <nav>
+        <div class="nav-wrapper teal darken-1">
+            <a href="/" class="brand-logo center">Recipe Advisor</a>
+            <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+        </div>
+    </nav>
+
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader">Recipe Advisor</a></li>
+        <li><a href="/pages/login.html" class="waves-effect">Login/Sign Up</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="/" class="waves-effect">Home</a></li>
+        <li><a href="/pages/pantry.html" class="waves-effect">Pantry</a></li>
+        <li><a href="/pages/recipes.html" class="waves-effect">Recipes</a></li>
+    </ul>
+    <div class="container center">
+        <form class="login container">
+            <h4 class="teal-text text-darken-1">Login</h4>
+            
+            <div class="input-field">
+                <input placeholder="Email" id="email" class="validate" type="text">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+                <input placeholder="Password" id="password" class="validate" type="text">
+                <label for="password">Password</label>
+            </div>
+        </form>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+        <div class="section"></div>
+        <div class="divider"></div>
+        <div class="section"></div>
+        <a href="#" class="waves-effect" style="font-size: 1.25em;">Sign Up</a>
+    </div>
+    <script src="/js/ui.js"></script>
+</body>
+</html>

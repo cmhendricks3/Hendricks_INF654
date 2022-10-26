@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantry</title>
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+</head>
+<body class="grey lighten-3">
+    <nav>
+        <div class="nav-wrapper teal darken-1">
+            <a href="/" class="brand-logo center">Recipe Advisor</a>
+            <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+        </div>
+    </nav>
+
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader">Recipe Advisor</a></li>
+        <li><a href="/pages/login.html" class="waves-effect">Login/Sign Up</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="/" class="waves-effect">Home</a></li>
+        <li><a href="/pages/pantry.html" class="waves-effect">Pantry</a></li>
+        <li><a href="/pages/recipes.html" class="waves-effect">Recipes</a></li>
+    </ul>
+    <div class="container center">
+        <a class="btn-floating btn-medium waves-effect left"><i class="material-icons">add</i></a>
+        <h4 class="teal-text text-darken-1">Pantry</h4>
+
+    </div>
+    <div class="divider"></div>
+
+    <div class="pantry container">
+        <div class="card-panel pantry_item white row">
+            <div class="pantry_item-detail">
+                <div class="pantry_item-description" style="font-size: 20px;">
+                    Flour
+                    <div class="pantry_item-delete right">
+                        <i class="material-icons">delete_outline</i>
+                    </div>
+                    <div class="pantry_item-edit right">
+                        <i class="material-icons">edit</i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="card-panel pantry_item white row">
+            <div class="pantry_item-detail">
+                <div class="pantry_item-description" style="font-size: 20px;">
+                    Butter
+                    <div class="pantry_item-delete right">
+                        <i class="material-icons">delete_outline</i>
+                    </div>
+                    <div class="pantry_item-edit right">
+                        <i class="material-icons">edit</i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="/js/ui.js"></script>
+</body>
+</html>
