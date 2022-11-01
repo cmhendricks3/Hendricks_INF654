@@ -1,0 +1,13 @@
+{
+    "name": "Recipe Advisor",
+    "short_name": "RA",
+    "description": "Search and filter recipes",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#b2dfdb",
+    "theme_color": "#00897b",
+    "dir": "auto",
+    "lang": "en-US"
+}
